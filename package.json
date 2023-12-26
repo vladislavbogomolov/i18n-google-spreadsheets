@@ -1,0 +1,17 @@
+{
+  "name": "i18n-google-spreadsheets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/index.js --download --path ./src/translations/ --sheet-id 1Vpk49U2ovwrTLijDrk8qfnDWGSV-NSjLeGc2W-zGXPI"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "google-auth-library": "^9.4.1",
+    "google-spreadsheet": "^4.1.1"
+  },
+  "keywords": [],
+  "author": "Vladislav Bogomolov",
+  "license": "ISC"
+}

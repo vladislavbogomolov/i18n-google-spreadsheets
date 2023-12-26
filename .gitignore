@@ -1,0 +1,5 @@
+node_modules
+.idea
+translations
+.env
+google-secret.json
